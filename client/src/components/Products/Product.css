@@ -1,0 +1,9 @@
+.ui.vertical.segment:not(.inverted) {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.sunStyle {
+    float: left;
+    margin: -3px 10px 0px 0px;
+}

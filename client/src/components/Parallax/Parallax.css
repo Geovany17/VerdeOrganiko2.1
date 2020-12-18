@@ -1,0 +1,98 @@
+.img-1,
+.img-2,
+.img-3,
+.img-4 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  opacity: 0.75;
+  position: relative;
+  width: 100vw;
+  font-family: "Open Sans", sans-serif;
+}
+
+.img-1 {
+  background-image: url("https://images.unsplash.com/photo-1471086569966-db3eebc25a59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+}
+
+.img-2 {
+  background-image: url("https://i.ibb.co/D4yK9hB/suculent.jpg");
+}
+
+.img-3 {
+  background-image: url("https://images.unsplash.com/photo-1599930504914-7e6ada20292b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+}
+
+.img-4 {
+  background-image: url("https://images.unsplash.com/photo-1509223197845-458d87318791?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=859&q=80");
+}
+
+.static {
+  position: relative;
+}
+
+.content {
+  background-color: #fff;
+  color: #5a5a5c;
+  padding: 50px;
+  text-align: left;
+}
+
+h1 {
+  background-color: #111;
+  color: #fff;
+  font-size: 80px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 10px;
+  margin: auto;
+  padding: 20px 20px 20px 28px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase;
+  top: 50%;
+  width: intrinsic;
+  width: -moz-max-content;
+  width: -webkit-max-content;
+}
+
+h3 {
+  color: #111;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1030px) {
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-4 {
+    background-attachment: scroll;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 35px;
+    letter-spacing: 5px;
+    padding: 10px;
+  }
+
+  h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  p {
+    line-height: 1.5em;
+    text-align: center;
+  }
+
+  .content {
+    padding: 50px 5px;
+  }
+}
